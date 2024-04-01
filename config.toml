@@ -1,0 +1,65 @@
+baseURL = "https://josuenadal.dev/"
+title = "Josué Nadal Rodríguez"
+theme = "m10c"
+paginate = 8
+#publishDir = "../public"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  #[[menu.main]]
+  #  identifier = "posts"
+  #  name = "Posts"
+  #  url = "/posts/"
+  #  weight = 2
+  #[[menu.main]]
+  #  identifier = "tags"
+  #  name = "Tags"
+  #  url = "/tags/"
+  #  weight = 3
+  #[[menu.main]]
+  #  identifier = "about"
+  #  name = "About"
+  #  url = "/about/"
+  #  weight = 3
+
+[params]
+  author = "Josué Nadal Rodríguez"
+  description = "Aspiring software engineer."
+  avatar = "/josue.png"
+  menu_item_separator = " - "
+  [[params.social]]
+    icon = "github"
+    name = "Github"
+    url = "https://github.com/josuenadal"
+  [[params.social]]
+    icon = "mail"
+    name = "email"
+    url = "mailto:josue.nadalrodriguez@gmail.com"
+
+  # Default theme
+  [params.style]
+    darkestColor = "#242930"
+    darkColor = "#353b43"
+    lightColor = "rgb(235, 219, 178)"
+    lightestColor = "#759485"
+    primaryColor = "rgb(235, 219, 178)"
+  
+  # Green theme
+  #[params.style]
+  #  darkestColor = "#315659"
+  #  darkColor = "#253031"
+  #  lightColor = "#96a879"
+  #  lightestColor = "#fff"
+  #  primaryColor = "#dad865"
+
+   # Red theme
+   #[params.style]
+    #darkestColor = "#d35050"
+    #darkColor = "#212121"
+    #lightColor = "#d6d6d6"
+    #lightestColor = "#d3d3d3"
+    #primaryColor = "#ffffff"
